@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Ordenador
+comment1.params=horasDeUso\ nuevoVentilador
+comment1.target=Ordenador(int,\ Ventilador)
+numComments=2
