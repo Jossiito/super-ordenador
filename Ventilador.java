@@ -30,4 +30,9 @@ public class Ventilador{
     public boolean getEncendido () {
         return encendido;
     }
+    
+    public void imprimirDetalles() {
+        System.out.println(" La velocidad del ventilador es: " + velocidad + " rpm. ");
+        System.out.println(" El estado del ventilador es " + encendido);
+    }
 }
