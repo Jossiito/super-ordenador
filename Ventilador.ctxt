@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ventilador
+comment1.params=velocidadGiro
+comment1.target=Ventilador(int)
+comment2.params=velocidadGiro
+comment2.target=void\ setVelocidad(int)
+comment3.params=
+comment3.target=int\ getVelocidadGiro()
+comment4.params=
+comment4.target=void\ encenderVentilador()
+comment5.params=
+comment5.target=boolean\ getEncendido()
+numComments=6
