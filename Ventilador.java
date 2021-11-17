@@ -35,4 +35,5 @@ public class Ventilador{
         System.out.println(" La velocidad del ventilador es: " + velocidad + " rpm. ");
         System.out.println(" El estado del ventilador es " + encendido);
     }
+    
 }

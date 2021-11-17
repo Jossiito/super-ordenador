@@ -1,3 +1,4 @@
+
 public class Ordenador{
     // Marca del ordenador
     private String marca;
@@ -45,5 +46,15 @@ public class Ordenador{
     
     public void setVentilador(Ventilador nuevoVentilador){
         ventilador = nuevoVentilador;
+    }
+    
+    public void imprimirDetalles(){
+        System.out.println(" La marca del PC es "+marca+ ". "+"\n"+
+            " Lleva encencido "+horasEncendido+ " horas."+"\n"
+            + " El estado del ordenador es "+encendidoPC+ ". "+"\n"+
+            " Estadisticas del ventilador: ");
+        
+        ventilador.imprimirDetalles();
+        
     }
 }
